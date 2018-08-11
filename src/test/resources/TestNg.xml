@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SQA Automation Suite Selenium" verbose="1">
+ 
+  <!--  
+  <test name="SQA Automation Test Selenium - passing parameter - Chrome">
+  	
+	
+	<parameter name="BrowserName" value="chrome" /> 
+	<parameter name="HomePage" value="http://facebook.com" />   
+    
+    <classes>
+    	<class name="com.facebook.tests.TestHomePage" />
+    	<methods>
+    		<include name="testFaceBookTitleOnPageLoad" />
+    	</methods>		
+		
+    </classes>
+  </test>
+  
+   
+  <test name="SQA Automation Test Selenium - passing parameter - Firefox">
+  	
+	
+	<parameter name="BrowserName" value="firefox" /> 
+	<parameter name="HomePage" value="http://facebook.com" />   
+    
+    <classes>
+    	<class name="com.facebook.tests.TestHomePage" />
+    	<methods>
+    		<include name="testFaceBookTitleOnPageLoad" />
+    	</methods>	
+    </classes>
+  </test>
+	
+  
+  
+  <test name="SQA Automation Test Selenium- passing parameter - registration">
+  	
+	
+	<parameter name="BrowserName" value="firefox" /> 
+	<parameter name="HomePage" value="http://facebook.com" />   
+	<parameter name="firstName" value="ABCDE" /> 
+	<parameter name="lastName" value="XYZ" />   
+    
+    <classes>
+    	<class name="com.facebook.tests.TestHomePage" />
+    	<methods>
+    		<include name="testFaceBookTitleOnPageLoad" />
+    		<include name="testUserRegistration" />
+    	</methods>	
+    </classes>
+  </test>
+  
+   
+  
+  <test name="SQA Automation Test Selenium - test user login">
+  	
+	
+	<parameter name="BrowserName" value="firefox" /> 
+	<parameter name="HomePage" value="http://facebook.com" />   
+	<parameter name="sUsername" value="ABCDE" /> 
+	<parameter name="sPassword" value="XYZ" />   
+    
+    <classes>
+    	<class name="com.facebook.tests.TestHomePage" />
+    	<methods>
+    		  
+    		<include name="testFaceBookTitleOnPageLoad" />
+    		
+    		<include name="testUserLogin" />
+    	</methods>	
+    </classes>
+  </test>
+  
+   <test name="SQA Automation Test Selenium - verify text contains">
+  	
+	
+	<parameter name="BrowserName" value="firefox" /> 
+	<parameter name="HomePage" value="http://facebook.com" />   
+    
+    <classes>
+    	<class name="com.facebook.tests.TestHomePage" />
+    	<methods>
+    		 
+    		<include name="testFaceBookTitleOnPageLoad" />
+    		
+    		<include name="verifyTextContains" />
+    	</methods>	
+    </classes>
+  </test>
+  
+  <test name="SQA Automation Test Selenium - verify combo selection">
+  	
+	
+	<parameter name="BrowserName" value="firefox" /> 
+	<parameter name="HomePage" value="http://facebook.com" />   
+    
+    <classes>
+    	<class name="com.facebook.tests.TestHomePage" />
+    	<methods>
+    		  
+    		<include name="testFaceBookTitleOnPageLoad" />
+    		
+    		<include name="verifyComboSelection" />
+    	</methods>	
+    </classes>
+  </test>
+     
+ 
+  
+  
+  <test name="SQA Automation Test Selenium - verify link text contains">
+  	
+	
+	<parameter name="BrowserName" value="firefox" /> 
+	<parameter name="HomePage" value="http://facebook.com" />   
+    
+    <classes>
+    	<class name="com.facebook.tests.TestHomePage" />
+    	<methods>
+    		   
+    		<include name="testFaceBookTitleOnPageLoad" />
+    		
+    		<include name="verifyLinkTextContains" />
+    	</methods>	
+    </classes>
+  </test>
+  
+  
+     
+    <test name="SQA Automation Test Selenium - Guru99 WebDriver Impl - firefox">
+  	
+	
+	<parameter name="BrowserName" value="firefox" />  
+    
+    <classes>
+    	<class name="com.guru99.tests.TestGuru99HomePage" />
+    	<methods>
+    		   
+    		<include name="test_Home_Page_DashBoard_userName" />
+    		<include name="test_getSteptoGenerateAccess" />
+    		
+    	</methods>	
+    </classes>
+  </test>
+   
+   <test name="SQA Automation Test Selenium - Guru99 WebDriver Impl - user enrollment (chrome)">
+  	
+	
+	<parameter name="BrowserName" value="chrome" />  
+    <parameter name="emailID" value = "khursheed_ma@yahoo.com" />
+    
+    <classes>
+    	<class name="com.guru99.tests.TestGuru99HomePage" />
+    	<methods>
+    		 
+    		<include name="test_checkHereLinkExists" />
+    		<include name="test_UserEnrollment" />
+    	
+    	</methods>	
+    </classes> 
+    </test> 
+    
+   <test name="SQA Automation Test Selenium - Guru99 WebDriver Impl - Register user credentials (chrome)">
+  	
+	
+	<parameter name="BrowserName" value="chrome" />  
+    <parameter name="sUsername" value = "mngr146952" />
+    <parameter name="sPassword" value = "muvequg" />
+    
+    <classes>
+    	<class name="com.guru99.tests.TestGuru99HomePage" />
+    	<methods>
+    		
+    		<include name="test_DemoSiteUserLogin" />
+    	
+    	</methods>	
+    </classes> 
+    </test> 
+    
+     <test name="SQA Automation Test Selenium - Guru99 WebDriver Impl - Reset user credentials (firefox)">
+  	
+	
+	<parameter name="BrowserName" value="firefox" />  
+    <parameter name="sUsername" value = "mngr146952123" />
+    <parameter name="sPassword" value = "muvequg123" />
+    
+    <classes>
+    	<class name="com.guru99.tests.TestGuru99HomePage" />
+    	<methods>
+    	
+    		<include name="test_DemoSiteUserLoginReset" />
+    		
+    	</methods>	
+    </classes> 
+    </test> 
+    
+     
+     
+    <test name="SQA Automation Test Selenium - Guru99 ECOM Project - Verify home page title">
+	
+	<parameter name="BrowserName" value="firefox" />  
+    
+    <classes>
+    	<class name="com.guru99.tests.TestGuru99ECOMProject" />
+    	<methods>
+    		   
+    		<include name="test_ECOM_title_of_the_page" />
+    		<include name="test_ECOM_Mobilelink_PageTitle" />
+    			
+    	</methods>	
+    </classes>
+  </test>
+  
+  <test name="SQA Automation Test Selenium - Guru99 ECOM Project - Verify cost of product in list page and details page are equal">
+	
+	<parameter name="BrowserName" value="chrome" />  
+    
+    <classes>
+    	<class name="com.guru99.tests.TestGuru99ECOMProject" />
+    	<methods>
+    		   
+    		<include name="test_ECOM_CostOfProdInListPageDetailsPageREqual" />
+    			
+    	</methods>	
+    </classes>
+  </test>
+ 
+    <test name="SQA Automation Test Selenium - Guru99 Selenium drop down - firefox">
+  	
+	
+	<parameter name="BrowserName" value="firefox" />  
+    
+    <classes>
+    	<class name="com.guru99.tests.TestGuru99HomePage" />
+    	<methods>
+    		<include name="test_Home_Page_DashBoard_userName" />
+    		
+    		<include name="test_SeleniumDropDownMenu" />
+    	
+    		
+    	</methods>	
+    </classes>
+  </test>
+   --> 
+   
+  <test name="SQA Automation Test Selenium - Guru99 user id and password texts - firefox">
+  	
+	
+	<parameter name="BrowserName" value="firefox" />  
+    
+    <classes>
+    	<class name="com.guru99.tests.TestGuru99HomePage" />
+    	<methods>
+    	
+    		<include name="test_Home_Page_DashBoard_userName" />
+    		<include name="test_UserIdPasswdLabels" />
+    	
+    		
+    	</methods>	
+    </classes>
+  </test>
+  
+</suite>

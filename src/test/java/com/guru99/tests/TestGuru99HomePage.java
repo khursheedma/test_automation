@@ -76,10 +76,33 @@ public class TestGuru99HomePage {
 		//Assert.assertTrue(HomePageLaunch);
 		if (HomePageLaunch == true) {
 			objHomePage.ClickSeleniumDropDownMenu();
+			objHomePage.clickSeleniumSelectElementFromDropDownOnPage("Flash");
+			String url = driver.getCurrentUrl();
+			System.out.println("drop down string url    " + url);
+			String flashTitleActual = objHomePage.FlashTitle();
+			System.out.println("Flash Title Actual  " + flashTitleActual);
 		}
 		
 		System.out.println("END: test_SeleniumDropDownMenu");
 		logger.info("END: test_SeleniumDropDownMenu");
+	}
+	
+	@Test
+	public void test_SeleniumDropDownMenuCountLinks() {
+		
+		System.out.println("START: test_SeleniumDropDownMenuCountLinks");
+		logger.info("START: test_SeleniumDropDownMenuCountLinks");
+		
+		//Assert.assertTrue(HomePageLaunch);
+		if (HomePageLaunch == true) {
+			//objHomePage.ClickSeleniumDropDownMenu();
+			int countLinks = objHomePage.countNoOfElementsSeleDrpDownMethod();
+			System.out.println("countlinks  " + countLinks);
+			Assert.assertEquals(countLinks, 20);
+		}
+		
+		System.out.println("END: test_SeleniumDropDownMenuCountLinks");
+		logger.info("END: test_SeleniumDropDownMenuCountLinks");
 	}
 	
 	@Test

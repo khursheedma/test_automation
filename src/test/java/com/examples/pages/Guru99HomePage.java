@@ -1,5 +1,6 @@
 package com.examples.pages;
 
+import java.util.List;
 import java.util.logging.Logger;
 
 import org.openqa.selenium.By;
@@ -27,6 +28,8 @@ public class Guru99HomePage {
 	By demoSiteLOGINButton = By.xpath("//input[@value='LOGIN']");
 	By demoSiteRESETButton = By.xpath("//input[@value='RESET']");
 	By demoSiteSelDropDown = By.xpath("//ul[@class='nav navbar-nav']/li[1]/a[1]");
+	By FlashTitle = By.xpath("//font[@color='#FF0000;']");
+	By countNoOfElementsSeleDrpDown = By.xpath("//ul[@class='nav navbar-nav']/li[1]/ul//following-sibling::li");
 	
 	
 	// ECOM: Begins
@@ -58,6 +61,22 @@ public class Guru99HomePage {
 		System.out.println("END: getHomePageDashboardUserName ");
 		logger.info("END: getHomePageDashboardUserName ");
 		return driver.getElementText(homePageUserName);
+	}
+	
+	public int countNoOfElementsSeleDrpDownMethod() {
+		
+		 List<WebElement> countNoOflinks = driver.findElements(countNoOfElementsSeleDrpDown);
+		 int count = countNoOflinks.size();
+		 return count;
+		
+	}
+	public String FlashTitle() {
+		System.out.println("START: FlashTitle ");
+		logger.info("START: FlashTitle ");
+		System.out.println("coming here");
+		System.out.println("END: FlashTitle ");
+		logger.info("END: FlashTitle ");
+		return driver.getElementText(FlashTitle);
 	}
 
 	// Get the steps to generate access text
@@ -192,6 +211,13 @@ public class Guru99HomePage {
 	
 	}
 	
+	public void clickSeleniumSelectElementFromDropDownOnPage(String Text){
+		  //String Path= 	"//ul[@class='nav navbar-nav']/li[1]//ul//a[contains(text()," + "'"+Text+ "'" +")]";
+		  String Path= 	"//ul[@class='nav navbar-nav']//a[contains(text()," + "'"+Text+ "'" +")]";
+		  By checkText=By.xpath(Path);
+		  WebElement element= driver.FindElement(checkText);
+		  driver.clickElement(element);
+	}
 	
 	
 	

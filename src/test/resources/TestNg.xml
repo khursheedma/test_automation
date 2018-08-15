@@ -226,25 +226,7 @@
     </classes>
   </test>
  
-    <test name="SQA Automation Test Selenium - Guru99 Selenium drop down - firefox">
-  	
-	
-	<parameter name="BrowserName" value="firefox" />  
-    
-    <classes>
-    	<class name="com.guru99.tests.TestGuru99HomePage" />
-    	<methods>
-    		<include name="test_Home_Page_DashBoard_userName" />
-    		
-    		<include name="test_SeleniumDropDownMenu" />
-    	
-    		
-    	</methods>	
-    </classes>
-  </test>
-   --> 
-   
-  <test name="SQA Automation Test Selenium - Guru99 user id and password texts - firefox">
+ <test name="SQA Automation Test Selenium - Guru99 user id and password texts - firefox">
   	
 	
 	<parameter name="BrowserName" value="firefox" />  
@@ -260,5 +242,46 @@
     	</methods>	
     </classes>
   </test>
+    
+
+   <test name="SQA Automation Test Selenium - Guru99 Selenium drop down - firefox">
+  	
+	
+	<parameter name="BrowserName" value="firefox" />  
+    
+    <classes>
+    	<class name="com.guru99.tests.TestGuru99HomePage" />
+    	<methods>
+    		<include name="test_Home_Page_DashBoard_userName" />
+    		
+    		<include name="test_SeleniumDropDownMenu" />
+    		
+    		<include name="test_SeleniumDropDownMenuCountLinks" />
+    		
+    	</methods>	
+    </classes>
+  </test>
+  
+     --> 
+     
+   <test name="SQA Automation Test Selenium - Guru99 WebDriver Impl - Register user credentials (chrome)">
+  	
+	
+	<parameter name="BrowserName" value="chrome" />  
+   <!--  
+    <parameter name="sUsername" value = "mngr146952" />
+    <parameter name="sPassword" value = "muvequg" />
+    -->
+    <classes>
+    	
+    	<class name="com.guru99.tests.TestGuru99Login" />
+    	<methods>
+    		
+    		<include name="testGuru99Login" />
+    	
+    	</methods>	
+    </classes> 
+    </test> 
+    
   
 </suite>

@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
@@ -113,6 +114,7 @@ public class Guru99WebDriverImpl implements Guru99WebDriver{
 	}
 
 
+
 	@Override
 	public Boolean navigateTo(final String urlString) {
 		
@@ -130,7 +132,6 @@ public class Guru99WebDriverImpl implements Guru99WebDriver{
 			
 			String CurrentUrl = getCurrentUrl();
 			
-			
 			if (CurrentUrl != null) {
 				mainPageFound = true;
 				driver.manage().window().maximize();
@@ -143,6 +144,7 @@ public class Guru99WebDriverImpl implements Guru99WebDriver{
 		return mainPageFound;
 	
 	}
+	 
 
 
 	@Override
@@ -235,6 +237,16 @@ public class Guru99WebDriverImpl implements Guru99WebDriver{
 		System.out.println("END: click Element ");
 
 	}
+	
+	public  Alert AcceptAlert() {
+		//Alert simpleAlert = driver.switchTo().alert();
+		//String alertText = simpleAlert.getText();
+		//System.out.println("Alert text is " + alertText);
+		//simpleAlert.accept();
+		return driver.switchTo().alert();
+	}
+	
+		
 	
 	
 } // class end

@@ -16,7 +16,8 @@ public class GlobalDataStore {
 	public static String Guru99HomePage;
 	public static String LogCategory;
 	public static String Guru99ECOMPage;
-	
+	public static String Guru99LoginPage;
+	public static String TestDataFile;
 	
 		/*
 		 * Initialize log4j Appenders
@@ -47,6 +48,8 @@ public class GlobalDataStore {
 				HomePage = configFile.getProperty("BASE_URL");
 				Guru99HomePage = configFile.getProperty("GURU99_HOMEPAGE");
 				Guru99ECOMPage = configFile.getProperty("GURU99_ECOMPAGE");
+				Guru99LoginPage = configFile.getProperty("GURU99_LOGINPAGE");
+				TestDataFile = configFile.getProperty("TEST_DATA_FILE");
 				
 			} catch (FileNotFoundException e) {
 				

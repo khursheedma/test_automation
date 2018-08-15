@@ -1,10 +1,16 @@
 com/guru99/framework/Guru99WebDriverImpl.class
+com/guru99/tests/TestGuru99Login2.class
+com/examples/pages/Guru99LoginPage.class
+com/guru99/tests/TestGuru99Login.class
 com/facebook/tests/FirefoxTest.class
 com/guru99/framework/Guru99WebDriverFactory.class
+com/guru99/tests/UserPassword_DataProvider.class
 com/facebook/tests/TestHomePage.class
 com/examples/pages/Guru99HomePage.class
+com/examples/pages/Guru99LoginPage2.class
 com/guru99/framework/Guru99WebDriver.class
 com/examples/pages/FaceBookHomePage.class
 com/examples/config/GlobalDataStore.class
+com/guru99/framework/ExcelUtils.class
 com/guru99/tests/TestGuru99HomePage.class
 com/guru99/tests/TestGuru99ECOMProject.class

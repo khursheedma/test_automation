@@ -1,26 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SQA Automation Suite Selenium" duration-ms="28735" started-at="2018-08-11T10:21:19Z" finished-at="2018-08-11T10:21:48Z">
+  <suite name="SQA Automation Suite Selenium" duration-ms="10214" started-at="2018-08-15T11:44:55Z" finished-at="2018-08-15T11:45:05Z">
     <groups>
     </groups>
-    <test name="SQA Automation Test Selenium - Guru99 user id and password texts - firefox" duration-ms="28735" started-at="2018-08-11T10:21:19Z" finished-at="2018-08-11T10:21:48Z">
-      <class name="com.guru99.tests.TestGuru99HomePage">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.guru99.tests.TestGuru99HomePage@26f67b76]" name="setUp" is-config="true" duration-ms="26859" started-at="2018-08-11T10:21:19Z" finished-at="2018-08-11T10:21:46Z">
+    <test name="SQA Automation Test Selenium - Guru99 WebDriver Impl - Register user credentials (chrome)" duration-ms="10214" started-at="2018-08-15T11:44:55Z" finished-at="2018-08-15T11:45:05Z">
+      <class name="com.guru99.tests.TestGuru99Login">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.guru99.tests.TestGuru99Login@6276ae34]" name="setUp" is-config="true" duration-ms="5371" started-at="2018-08-15T11:44:55Z" finished-at="2018-08-15T11:45:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="test_Home_Page_DashBoard_userName()[pri:0, instance:com.guru99.tests.TestGuru99HomePage@26f67b76]" name="test_Home_Page_DashBoard_userName" duration-ms="647" started-at="2018-08-11T10:21:46Z" finished-at="2018-08-11T10:21:47Z">
+        <test-method status="PASS" signature="testGuru99Login(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.tests.TestGuru99Login@6276ae34]" name="testGuru99Login" duration-ms="4562" started-at="2018-08-15T11:45:00Z" finished-at="2018-08-15T11:45:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr146952]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[muvequg]]>
+              </value>
+            </param>
+          </params>
         </test-method>
-        <test-method status="PASS" signature="test_UserIdPasswdLabels()[pri:0, instance:com.guru99.tests.TestGuru99HomePage@26f67b76]" name="test_UserIdPasswdLabels" duration-ms="1216" started-at="2018-08-11T10:21:47Z" finished-at="2018-08-11T10:21:48Z">
-        </test-method>
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.guru99.tests.TestGuru99HomePage@26f67b76]" name="teardown" is-config="true" duration-ms="1" started-at="2018-08-11T10:21:48Z" finished-at="2018-08-11T10:21:48Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.guru99.tests.TestGuru99Login@6276ae34]" name="teardown" is-config="true" duration-ms="0" started-at="2018-08-15T11:45:05Z" finished-at="2018-08-15T11:45:05Z">
         </test-method>
       </class>
     </test>

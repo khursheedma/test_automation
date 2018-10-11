@@ -90,17 +90,17 @@ final static Logger logger = Logger.getLogger("GURU99_LOGIN_TESTS");
 		logger.info("In Test Login Method ");
 		String loginTitle = null;
 		//System.out.println("The file path " + FilePath);
-		driver.navigateTo(BankHomePage);
+		//driver.navigateTo(BankHomePage);
 		
-		ExcelUtils.setExcelFile(FilePath, "sheet1");
+		//ExcelUtils.setExcelFile(FilePath, "sheet1");
 		
-		driver.navigateTo(BankHomePage);		  
+		//driver.navigateTo(BankHomePage);		  
 		logger.info(" The userName from Excel " +sUserName);
 		logger.info(" The password from Excel " +sPassword);
 		/*
 		objLoginPage.loginToGuru99(sUserName,sPassword);
 		loginTitle = objLoginPage.getLoginTitle();
-		System.out.println("the loging title " +loginTitle);
+		System.out.println("the login title " +loginTitle);
 		*/
 		
 		WebElement RegUserID = objLoginPage.SetUp_UserID();
@@ -136,7 +136,7 @@ final static Logger logger = Logger.getLogger("GURU99_LOGIN_TESTS");
 		}
 		
 	
-		Thread.sleep(1000);
+		//Thread.sleep(1000);
 		
 		
 	

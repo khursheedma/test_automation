@@ -1,0 +1,124 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< SQAAutomationSelenium:SQAAutomationSelenium >-------------
+[INFO] Building sample-maven-testProject 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ SQAAutomationSelenium ---
+[INFO] Deleting /Users/khursheed/eclipse-workspace/SQAAutomationSelenium/target
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (auto-clean) @ SQAAutomationSelenium ---
+[INFO] Deleting /Users/khursheed/eclipse-workspace/SQAAutomationSelenium (includes = [**/log/**, **/target/**], excludes = [])
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SQAAutomationSelenium ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ SQAAutomationSelenium ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to /Users/khursheed/eclipse-workspace/SQAAutomationSelenium/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SQAAutomationSelenium ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ SQAAutomationSelenium ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to /Users/khursheed/eclipse-workspace/SQAAutomationSelenium/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.14.1:test (default-test) @ SQAAutomationSelenium ---
+[INFO] Surefire report directory: /Users/khursheed/eclipse-workspace/SQAAutomationSelenium/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+START: In set-up Method
+GDS:initParameters() Base dir: /Users/khursheed/eclipse-workspace/SQAAutomationSelenium
+The WebDriver Init Method chrome
+ The Chrome Driver drivers/chromedriver
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 10290
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Oct 11, 2018 7:34:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+The Navigate URL http://demo.guru99.com/v4/index.php
+START: setWebDriver 
+Oct 11, 2018 7:34:43 AM com.examples.pages.Guru99HomePage setWebDriver
+INFO: START: setWebDriver 
+END: setWebDriver 
+Oct 11, 2018 7:34:43 AM com.examples.pages.Guru99HomePage setWebDriver
+INFO: END: setWebDriver 
+START: setWebDriver 
+Oct 11, 2018 7:34:43 AM com.examples.pages.Guru99LoginPage setWebDriver
+INFO: START: setWebDriver 
+END: setWebDriver 
+Oct 11, 2018 7:34:43 AM com.examples.pages.Guru99LoginPage setWebDriver
+INFO: END: setWebDriver 
+END: In set-up Method
+mngr156387
+gejyvav
+START: SetUp_UserID 
+Oct 11, 2018 7:34:44 AM com.examples.pages.Guru99LoginPage SetUp_UserID
+INFO: START: SetUp_UserID 
+coming here
+END: SetUp_UserID 
+Oct 11, 2018 7:34:44 AM com.examples.pages.Guru99LoginPage SetUp_UserID
+INFO: END: SetUp_UserID 
+ Coming in Find Element
+The element exists
+START: SetUp_Password 
+Oct 11, 2018 7:34:44 AM com.examples.pages.Guru99LoginPage SetUp_Password
+INFO: START: SetUp_Password 
+coming here
+END: SetUp_Password 
+Oct 11, 2018 7:34:44 AM com.examples.pages.Guru99LoginPage SetUp_Password
+INFO: END: SetUp_Password 
+ Coming in Find Element
+The element exists
+START: loginButtonExist 
+Oct 11, 2018 7:34:44 AM com.examples.pages.Guru99LoginPage loginButtonExist
+INFO: START: loginButtonExist 
+coming here
+END: loginButtonExist 
+Oct 11, 2018 7:34:44 AM com.examples.pages.Guru99LoginPage loginButtonExist
+INFO: END: loginButtonExist 
+The element exists
+ Coming in Find Element
+The element exists
+START: logout_validation 
+Oct 11, 2018 7:34:45 AM com.examples.pages.Guru99LoginPage logout_validation
+INFO: START: logout_validation 
+coming here
+END: logout_validation 
+Oct 11, 2018 7:34:45 AM com.examples.pages.Guru99LoginPage logout_validation
+INFO: END: logout_validation 
+The element exists
+ Coming in Find Element
+The element exists
+[1539268486.190][SEVERE]: Unable to retrieve document state unexpected alert open
+[1539268486.190][SEVERE]: Unable to retrieve document state unexpected alert open
+START: demoSiteAcceptAlertMessage 
+Oct 11, 2018 7:34:46 AM com.examples.pages.Guru99LoginPage demoSiteAcceptAlertMessage
+INFO: START: demoSiteAcceptAlertMessage 
+coming here
+END: demoSiteAcceptAlertMessage 
+Oct 11, 2018 7:34:46 AM com.examples.pages.Guru99LoginPage demoSiteAcceptAlertMessage
+INFO: END: demoSiteAcceptAlertMessage 
+Alert text is You Have Succesfully Logged Out!!
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.628 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.965 s
+[INFO] Finished at: 2018-10-11T07:34:46-07:00
+[INFO] ------------------------------------------------------------------------

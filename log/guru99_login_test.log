@@ -1,16 +1,8 @@
 INFO main GURU99_LOGIN_TESTS - START: In set-up Method
 INFO main GURU99_LOGIN_TESTS - END: In set-up Method
 INFO main GURU99_LOGIN_TESTS - In Test Login Method 
-INFO main GURU99_LOGIN_TESTS -  The userName from Excel mngr156387
-INFO main GURU99_LOGIN_TESTS -  The password from Excel gejyvav
-INFO main GURU99_LOGIN_TESTS - Alert text is You Have Succesfully Logged Out!!
-INFO main GURU99_LOGIN_TESTS - START: tear down
-INFO main GURU99_LOGIN_TESTS - END: tear down
-INFO main GURU99_LOGIN_TESTS - START: In set-up Method
-INFO main GURU99_LOGIN_TESTS - END: In set-up Method
-INFO main GURU99_LOGIN_TESTS - In Test Login Method 
-INFO main GURU99_LOGIN_TESTS -  The userName from Excel mngr156387
-INFO main GURU99_LOGIN_TESTS -  The password from Excel gejyvav
+INFO main GURU99_LOGIN_TESTS -  The userName from Excel mngr211975 
+INFO main GURU99_LOGIN_TESTS -  The password from Excel ebEqytY
 INFO main GURU99_LOGIN_TESTS - Alert text is You Have Succesfully Logged Out!!
 INFO main GURU99_LOGIN_TESTS - START: tear down
 INFO main GURU99_LOGIN_TESTS - END: tear down

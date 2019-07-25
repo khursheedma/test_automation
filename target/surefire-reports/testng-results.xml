@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SQA Automation Suite Selenium" duration-ms="10722" started-at="2018-10-11T08:27:17Z" finished-at="2018-10-11T08:27:28Z">
+  <suite name="SQA Automation Suite Selenium" duration-ms="9131" started-at="2019-07-24T19:59:45Z" finished-at="2019-07-24T19:59:54Z">
     <groups>
     </groups>
-    <test name="SQA Automation Test Selenium - Guru99 WebDriver Impl - Register user credentials (chrome)" duration-ms="10722" started-at="2018-10-11T08:27:17Z" finished-at="2018-10-11T08:27:28Z">
+    <test name="SQA Automation Test Selenium - Guru99 WebDriver Impl - Register user credentials (chrome)" duration-ms="9131" started-at="2019-07-24T19:59:45Z" finished-at="2019-07-24T19:59:54Z">
       <class name="com.guru99.tests.TestGuru99Login">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.guru99.tests.TestGuru99Login@6276ae34]" name="setUp" is-config="true" duration-ms="7032" started-at="2018-10-11T08:27:17Z" finished-at="2018-10-11T08:27:24Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.guru99.tests.TestGuru99Login@6276ae34]" name="setUp" is-config="true" duration-ms="6123" started-at="2019-07-24T19:59:45Z" finished-at="2019-07-24T19:59:51Z">
           <params>
             <param index="0">
               <value>
@@ -16,21 +16,21 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testGuru99Login(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.tests.TestGuru99Login@6276ae34]" name="testGuru99Login" duration-ms="3155" started-at="2018-10-11T08:27:24Z" finished-at="2018-10-11T08:27:28Z">
+        <test-method status="PASS" signature="testGuru99Login(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.tests.TestGuru99Login@6276ae34]" name="testGuru99Login" duration-ms="2773" started-at="2019-07-24T19:59:52Z" finished-at="2019-07-24T19:59:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[mngr156387]]>
+                <![CDATA[mngr211975 ]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[gejyvav]]>
+                <![CDATA[ebEqytY]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.guru99.tests.TestGuru99Login@6276ae34]" name="teardown" is-config="true" duration-ms="1" started-at="2018-10-11T08:27:28Z" finished-at="2018-10-11T08:27:28Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.guru99.tests.TestGuru99Login@6276ae34]" name="teardown" is-config="true" duration-ms="0" started-at="2019-07-24T19:59:54Z" finished-at="2019-07-24T19:59:54Z">
         </test-method>
       </class>
     </test>
